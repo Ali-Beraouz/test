@@ -1,0 +1,181 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #b7c3d6;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.head1 {
+  color: #fff;
+  margin-left: 7vw; /* Percentages make the position relative to the screen instead of fixed units like px.*/
+  font-family: Inter;
+  transform: translateX(2%);
+  font-size: 12vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90%;
+  /* letter-spacing: 1vw; */
+  margin-top: 11%;
+  /* top: 10%; */
+  /* left: 91px; */
+}
+
+button {
+  /* width: 10%; */
+  /* height: 41px; */
+  /* flex-shrink: 0; */
+  border-radius: 20px;
+  background: #939ce9;
+  /* color: #000; */
+  font-family: Inter;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 600;
+  /* font-weight: bolder; */
+  /* font-weight: 400; */
+  line-height: 86.957%; /* 86.957% */
+}
+
+.subhead {
+  color: #fff;
+  margin-left: 30vw;
+  font-family: Inter;
+  transform: translateX(10%);
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 83.333%; */
+}
+
+/* .header-left{
+    width: auto;
+    height: auto;
+    transform: translateX(1%);
+    flex-shrink: 0;
+    position:absolute;
+    left: 0%;
+    vertical-align: top;
+    margin-left: 12%;
+} */
+
+.Resource_Bank_Logo {
+  width: 16vw;
+  height: auto;
+  transform: translateX(1%);
+  flex-shrink: 0;
+  position: absolute;
+  /* left: 0%; */
+  vertical-align: top;
+  margin-left: 8%;
+}
+
+.Black_BackGround {
+  width: 90vw;
+  height: auto;
+  transform: translateX(-50%);
+  z-index: -1; /* z-index controlls the superposition of the element on top of others. */
+  flex-shrink: 0;
+  position: absolute;
+  left: 49%;
+  vertical-align: top;
+  top: -1%;
+  margin-left: 0.5%;
+}
+
+.one-stop {
+  color: #0a090f;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4vw; /* 130.769% */
+  margin-top: 13vw;
+  font-size: 3vw;
+}
+
+.btn {
+  width: 7.5vw;
+  height: 2.75vw;
+  top: 3.2vw;
+  left: 33vw;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+}
+
+.btn2 {
+  width: 7.5vw;
+  height: 2.75vw;
+  top: 3.2vw;
+  left: 34.5vw;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+}
+
+.btn3 {
+  width: 7.5vw;
+  height: 2.75vw;
+  top: 3.2vw;
+  left: 36vw;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+}
+.WhatWeProvide {
+  width: 80vw;
+  height: auto;
+  transform: translateX(1%);
+  flex-shrink: 0;
+  position: absolute;
+  right: 11%;
+  vertical-align: top;
+  margin-left: 12%;
+}
+
+.btn4 {
+  width: 16.563vw;
+  height: 2.917vw;
+  left: 28.177vw;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  margin-left: 14.577vw;
+  margin-top: 19.177vw;
+  justify-content: center;
+}
+
+.disclamer{
+  position: absolute;
+  transform: translateY(20%);
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  top: 220%;
+}
+
+.resources {
+  position: absolute;
+  top: 320%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1590%;
+  line-height: 288px;
+  /* or  */
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.06);
+
+  transform: rotate(-2deg);
+} 
